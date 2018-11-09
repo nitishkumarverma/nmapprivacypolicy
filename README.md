@@ -1,0 +1,2 @@
+# nmapprivacypolicy
+Nmap Privacy Policy
