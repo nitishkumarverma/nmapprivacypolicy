@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" href="css/sidenav.css">
+	</head>
+	<body>
+		<div id="main">
+					
+			<div class="topnav">
+				<h1>Nmap Port Scan types</h1>
+			</div><br>
+  
+			<h2>Scan using TCP connect</h2>
+			<p>nmap -sT [target]</p>/<br>
+  
+			<h2>Scan using TCP SYN scan (default)</h2>
+			<p>nmap -sS [target]</p>/<br>
+
+			<h2>Scan UDP ports</h2>
+			<p>nmap -sU -p [port1, port2, …] [target]</p>/<br>
+
+			<h2>Scan selected ports – ignore discovery</h2>
+			<p>nmap -Pn -F [target]</p>
+
+	
+		</div>
+	</body>
+</html> 

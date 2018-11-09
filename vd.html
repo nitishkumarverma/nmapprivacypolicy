@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" href="css/sidenav.css">
+	</head>
+	<body>
+		<div id="main">
+
+			<div class="topnav">
+				<h1>Version Detection</h1>
+			</div><br>
+
+			<h2>Operating system detection</h2>
+			<p>nmap -O [target]</p></br>
+
+			<h2>Attempt to guess an unknown</h2>
+			<p>nmap -O –osscan-guess [target]</p></br>
+
+			<h2>Service version detection</h2>
+			<p>nmap -sV [target]</p></br>
+
+			<h2>Troubleshooting version scans</h2>
+			<p>nmap -sV –version-trace [target]</p></br>
+
+			<h2>Perform a RPC scan</h2>
+			<p>nmap -sR [target]</p>
+	
+		</div>
+	</body>
+</html> 

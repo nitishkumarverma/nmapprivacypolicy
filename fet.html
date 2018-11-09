@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" href="css/sidenav.css">
+	</head>
+	<body>
+		<div id="main">
+  
+			<div class="topnav">
+				<h1>Firewall Evasion Techniques</h1>
+			</div><br>
+
+			<h2>Fragment packets</h2>
+			<p>nmap -f [target]</p></br>
+
+			<h2>Specify a specific MTU</h2>
+			<p>nmap –mtu [MTU] [target]</p></br>
+
+			<h2>Use a decoy</h2>
+			<p>nmap -D RND: [number] [target]</p></br>
+
+			<h2>Idle zombie scan</h2>
+			<p>nmap -sI [zombie] [target]</p></br>
+
+			<h2>Manually specify a source port</h2>
+			<p>nmap –source-port [port] [target]</p></br>
+
+			<h2>Append random data</h2>
+			<p>nmap –data-length [size] [target]</p></br>
+
+			<h2>Randomize target scan order</h2>
+			<p>nmap –randomize-hosts [target]</p></br>
+
+			<h2>Spoof MAC Address</h2>
+			<p>nmap –spoof-mac [MAC|0|vendor] [target]</p></br>
+
+			<h2>Send bad checksums</h2>
+			<p>nmap –badsum [target]</p>
+
+		</div>
+	</body>
+</html> 
